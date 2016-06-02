@@ -1,0 +1,15 @@
+Scopes
+-----------------------------------------------------------------------------------------------------
+
+The name for the kind of scope that exists in a nested relationship is called ChieldScope
+Another scope that exists inside Angular is called RootScope
+
+Scope can Heir from Root to Parent to Child
+Bind variables from Parent to Child Scopes but not the other way around.
+Trying to set values on parent scope variables from Child Scopes results in a copy of the variable being created on the Child Scope
+
+Recommended:
+
+Go to AngularJS GitHub Repo (https://github.com/angular/angular.js)
+Click on Wiki
+Click on Understanding Scopes
